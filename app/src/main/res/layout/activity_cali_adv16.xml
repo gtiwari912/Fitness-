@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cali_adv16"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/adv_cali"
+    android:alpha="1"
+    tools:context=".cali_adv16">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.8"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/b16i"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#9C27B0"
+                android:padding="5dp"
+                android:text="Introduction"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b16ii"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#673AB7"
+                android:padding="5dp"
+                android:text="Handstand Push up (HSPU)"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b16iii"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#9C27B0"
+                android:padding="5dp"
+                android:text="90° Handstand Push up"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b16iv"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#673AB7"
+                android:padding="5dp"
+                android:text="One Arm Handstand"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b16v"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#9C27B0"
+                android:padding="5dp"
+                android:text="Impossible Dip"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b16vi"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#673AB7"
+                android:padding="5dp"
+                android:text="Shoulder Flag"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b16vii"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#9C27B0"
+                android:padding="5dp"
+                android:text="Human Flag"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b16viii"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#673AB7"
+                android:padding="5dp"
+                android:text="Back Lever"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b16ix"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#9C27B0"
+                android:padding="5dp"
+                android:text="Front Lever"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b16x"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#673AB7"
+                android:padding="5dp"
+                android:text="V-sit"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b16xi"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#9C27B0"
+                android:padding="5dp"
+                android:text="Manna"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b16xii"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#673AB7"
+                android:padding="5dp"
+                android:text="One Arm Chin up (OAC)"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b16xiii"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#9C27B0"
+                android:padding="5dp"
+                android:text="One Arm Pull up (OAP)"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b16xiv"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#673AB7"
+                android:padding="5dp"
+                android:text="Hefesto"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b16xv"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#9C27B0"
+                android:padding="5dp"
+                android:text="Entrada de ángel"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b16xvi"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#673AB7"
+                android:padding="5dp"
+                android:text="Planche"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b16xvii"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#9C27B0"
+                android:padding="5dp"
+                android:text="Maltese"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b16xviii"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#673AB7"
+                android:padding="5dp"
+                android:text="Iron Cross"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b16xix"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#9C27B0"
+                android:padding="5dp"
+                android:text="Inverted Cross"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b16xx"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#673AB7"
+                android:padding="5dp"
+                android:text="Victorian Cross"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

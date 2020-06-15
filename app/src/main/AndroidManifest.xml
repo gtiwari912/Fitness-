@@ -1,0 +1,984 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.abhisheksawant.FitnessGuide">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".bruised_heel"
+            android:label="Bruised Heel"
+            android:parentActivityName=".injuries18_x"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".calcaneus_stress_fracture"
+            android:label="Calcaneus Stress Fracture"
+            android:parentActivityName=".injuries18_x"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".achilles_tendinitis"
+            android:label="Achilles Tendinitis"
+            android:parentActivityName=".injuries18_x"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".tarsal_tunnel"
+            android:label="Tarsal Tunnel Syndrome"
+            android:parentActivityName=".injuries18_x"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".plantar_fasciitis"
+            android:label="Plantar Fasciitis"
+            android:parentActivityName=".injuries18_x"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".heel_pain_intro"
+            android:label="Introduction"
+            android:parentActivityName=".injuries18_x"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".injuries18_x"
+            android:label="Heel Pain"
+            android:parentActivityName=".injuries18" />
+        <activity
+            android:name=".about_this_app"
+            android:label="About This App"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".about_us"
+            android:label="About Us"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".victorian_cross"
+            android:label="Victorian Cross"
+            android:parentActivityName=".cali_adv16"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".inverted_cross"
+            android:label="Inverted Cross"
+            android:parentActivityName=".cali_adv16"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".iron_cross"
+            android:label="Iron Cross"
+            android:parentActivityName=".cali_adv16"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".maltese"
+            android:label="Maltese"
+            android:parentActivityName=".cali_adv16"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".planche"
+            android:label="Planche"
+            android:parentActivityName=".cali_adv16"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".entrada_de_angel"
+            android:label="Entrada de ángel"
+            android:parentActivityName=".cali_adv16"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".hefesto"
+            android:label="Hefesto"
+            android:parentActivityName=".cali_adv16"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".oap"
+            android:label="One Arm Pull up (OAP)"
+            android:parentActivityName=".cali_adv16"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".oac"
+            android:label="One Arm Chin up (OAC)"
+            android:parentActivityName=".cali_adv16"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".manna"
+            android:label="Manna"
+            android:parentActivityName=".cali_adv16"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".vsit"
+            android:label="V-sit"
+            android:parentActivityName=".cali_adv16"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".front_lever"
+            android:label="Front Lever"
+            android:parentActivityName=".cali_adv16"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".back_lever"
+            android:label="Back Lever"
+            android:parentActivityName=".cali_adv16"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".human_flag"
+            android:label="Human Flag"
+            android:parentActivityName=".cali_adv16"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".shoulder_flag"
+            android:label="Shoulder Flag"
+            android:parentActivityName=".cali_adv16"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".imp_dip"
+            android:label="Impossible Dip"
+            android:parentActivityName=".cali_adv16"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".oah"
+            android:label="One Arm Handstand"
+            android:parentActivityName=".cali_adv16"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".hspu90"
+            android:label="90° Handstand Push Up"
+            android:parentActivityName=".cali_adv16"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".hspu"
+            android:label="Handstand Push Up (HSPU)"
+            android:parentActivityName=".cali_adv16"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".cali_adv_intro"
+            android:label="Introduction"
+            android:parentActivityName=".cali_adv16"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".nordic_curl"
+            android:label="Nordic Hamstring Curl"
+            android:parentActivityName=".cali_inter15"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".shrimp_squats"
+            android:label="Shrimp Squats"
+            android:parentActivityName=".cali_inter15"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".pistol_squats"
+            android:label="Pistol Squats"
+            android:parentActivityName=".cali_inter15"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".handstand"
+            android:label="Handstand"
+            android:parentActivityName=".cali_inter15"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".elbow_lever"
+            android:label="Elbow Lever"
+            android:parentActivityName=".cali_inter15"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ring_exercises"
+            android:label="Ring Exercises"
+            android:parentActivityName=".cali_inter15"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".giant_swing"
+            android:label="Giant Swing"
+            android:parentActivityName=".freestyle17"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".swing720"
+            android:label="Swing 720°"
+            android:parentActivityName=".freestyle17"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".swing540"
+            android:label="Swing 540°"
+            android:parentActivityName=".freestyle17"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".swing360"
+            android:label="Swing 360°"
+            android:parentActivityName=".freestyle17"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".shrimp_flip"
+            android:label="Shrimp Flip"
+            android:parentActivityName=".freestyle17"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".bar_spin"
+            android:label="Bar Spin"
+            android:parentActivityName=".freestyle17"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".bar_jump"
+            android:label="Bar Jump"
+            android:parentActivityName=".freestyle17"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".bar_kip_up"
+            android:label="Bar Kip up"
+            android:parentActivityName=".freestyle17"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".pullover"
+            android:label="Pullover"
+            android:parentActivityName=".freestyle17"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".freestyle_intro"
+            android:label="Introduction"
+            android:parentActivityName=".freestyle17"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".cubital_tunnel"
+            android:label="Cubital Tunnel Syndrome"
+            android:parentActivityName=".injuries18_viii"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".carpal_tunne"
+            android:label="Carpal Tunnel Syndrome"
+            android:parentActivityName=".injuries18_viii"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".carpal_boss"
+            android:label="Carpal Boss"
+            android:parentActivityName=".injuries18_viii"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ganglion_cyst"
+            android:label="Ganglion Cyst"
+            android:parentActivityName=".injuries18_viii"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".wrist_arthritis"
+            android:label="Wrist Arthritis"
+            android:parentActivityName=".injuries18_viii"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".dislocated_wrist"
+            android:label="Dislocated Wrist"
+            android:parentActivityName=".injuries18_viii"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".wrist_sprain"
+            android:label="Wrist Sprain"
+            android:parentActivityName=".injuries18_viii"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".wrist_tendinitis"
+            android:label="Wrist Tendinitis"
+            android:parentActivityName=".injuries18_viii"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".distal_radius_fracture"
+            android:label="Distal Radius Fracture"
+            android:parentActivityName=".injuries18_viii"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".wrist_injuries_intro"
+            android:label="Introduction"
+            android:parentActivityName=".injuries18_viii"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".golfers_elbow"
+            android:label="Medial Epicondylitis"
+            android:parentActivityName=".injuries18_vii"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".tennis_elbow"
+            android:label="Lateral Epicondylitis"
+            android:parentActivityName=".injuries18_vii"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".elbow_tendinitis_intro"
+            android:label="Introduction"
+            android:parentActivityName=".injuries18_vii"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".lower_back_injury"
+            android:label="Lower Back Injury"
+            android:parentActivityName=".injuries18"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".shin_splints"
+            android:label="Shin Splints"
+            android:parentActivityName=".injuries18"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".knee_injury"
+            android:label="Knee Injury"
+            android:parentActivityName=".injuries18"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".shoulder_osteoarthritis"
+            android:label="Shoulder Osteoarthritis"
+            android:parentActivityName=".injuries18_iv"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".frozen_shoulder"
+            android:label="Frozen Shoulder"
+            android:parentActivityName=".injuries18_iv"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".slap_tear"
+            android:label="SLAP Tear"
+            android:parentActivityName=".injuries18_iv"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".dislocated_shoulder"
+            android:label="Dislocated Shoulder"
+            android:parentActivityName=".injuries18_iv"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".impingement"
+            android:label="Shoulder Impingement"
+            android:parentActivityName=".injuries18_iv"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".rotator_cuff_tear"
+            android:label="Rotator Cuff Tear"
+            android:parentActivityName=".injuries18_iv"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".shoulder_injuries_intro"
+            android:label="Introduction"
+            android:parentActivityName=".injuries18_iv"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ankle_sprain"
+            android:label="Ankle Sprain"
+            android:parentActivityName=".injuries18"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".muscle_strain"
+            android:label="Muscle Pull or Strain"
+            android:parentActivityName=".injuries18"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".injuries_intro"
+            android:label="Introduction"
+            android:parentActivityName=".injuries18"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".muscle_up"
+            android:label="Muscle Up"
+            android:parentActivityName=".cali_inter15"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".dragon_flag"
+            android:label="Dragon Flag"
+            android:parentActivityName=".cali_inter15"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Lsit"
+            android:label="L-sit"
+            android:parentActivityName=".cali_inter15"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".hanging_core"
+            android:label="Hanging Core exercises"
+            android:parentActivityName=".cali_inter15"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".cali_inter_intro"
+            android:label="Introduction"
+            android:parentActivityName=".cali_inter15"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".cali_wisdom"
+            android:label="Words of Wisdom (Calisthenics edition)"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".single_leg_glute_bridge"
+            android:label="Single Leg Glute Bridge"
+            android:parentActivityName=".cali_beg13_vi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".drinking_bird"
+            android:label="Drinking Bird"
+            android:parentActivityName=".cali_beg13_vi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".single_leg_calf_raise"
+            android:label="Single Leg Bodyweight Calf Raises"
+            android:parentActivityName=".cali_beg13_vi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".single_leg_box_squat"
+            android:label="Single Leg Box Squat"
+            android:parentActivityName=".cali_beg13_vi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".archer_squats"
+            android:label="Archer Squats"
+            android:parentActivityName=".cali_beg13_vi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".walking_lunges"
+            android:label="Walking Lunges"
+            android:parentActivityName=".cali_beg13_vi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".airsquats"
+            android:label="Air Squats"
+            android:parentActivityName=".cali_beg13_vi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".lyingcore"
+            android:label="Lying Core exercises"
+            android:parentActivityName=".cali_beg13"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".pullups"
+            android:label="Pull Ups"
+            android:parentActivityName=".cali_beg13"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".dips"
+            android:label="Dips"
+            android:parentActivityName=".cali_beg13"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".pushup"
+            android:label="Push Ups"
+            android:parentActivityName=".cali_beg13"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".cali_beg_intro"
+            android:label="Introduction"
+            android:parentActivityName=".cali_beg13"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".gym_wisdom"
+            android:label="Words of Wisdom (Gym edition)"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".less_common_mistakes"
+            android:label="Less Common Gym Mistakes"
+            android:parentActivityName=".etiquettes11"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".common_mistakes"
+            android:label="Common Gym Mistakes"
+            android:parentActivityName=".etiquettes11"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".etiquettes_intro"
+            android:label="Introduction"
+            android:parentActivityName=".etiquettes11"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".strengthplateau"
+            android:label="Overcoming Strength Plateaus"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".calves"
+            android:label="Calves"
+            android:parentActivityName=".gym9_iii"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".hams"
+            android:label="Hamstrings"
+            android:parentActivityName=".gym9_iii"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".quads"
+            android:label="Quadriceps"
+            android:parentActivityName=".gym9_iii"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".glutes"
+            android:label="Glutes (Butts)"
+            android:parentActivityName=".gym9_iii"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".traps"
+            android:label="Trapezius (Traps)"
+            android:parentActivityName=".gym9_iii"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".chest"
+            android:label="Pectorals (Chest)"
+            android:parentActivityName=".gym9_iii"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".deltoids"
+            android:label="Deltoids (Shoulders)"
+            android:parentActivityName=".gym9_iii"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".triceps"
+            android:label="Triceps"
+            android:parentActivityName=".gym9_iii"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".biceps"
+            android:label="Biceps"
+            android:parentActivityName=".gym9_iii"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".isolation_intro"
+            android:label="Introduction"
+            android:parentActivityName=".gym9_iii"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".latpulldown"
+            android:label="Lat Pulldown"
+            android:parentActivityName=".gym9_ii"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".barbellrows"
+            android:label="Rows"
+            android:parentActivityName=".gym9_ii"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ohp"
+            android:label="Overhead Press (OHP)"
+            android:parentActivityName=".gym9_ii"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".benchpress"
+            android:label="Bench Press"
+            android:parentActivityName=".gym9_ii"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".lunges"
+            android:label="Lunges and Split Squats"
+            android:parentActivityName=".gym9_ii"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".barbell_squats"
+            android:label="Barbell Squats"
+            android:parentActivityName=".gym9_ii"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".deadlifts"
+            android:label="Deadlifts"
+            android:parentActivityName=".gym9_ii"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".comp_exer_intro"
+            android:label="Introduction"
+            android:parentActivityName=".gym9_ii"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".basic_restrain_intro"
+            android:label="Introduction"
+            android:parentActivityName=".gym9"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".intro_res_training"
+            android:label="Introduction to Resistance Training"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".cardio"
+            android:label="Cardiovascular or Aerobic exercises"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".goalsetting"
+            android:label="Goal Setting"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".warmup_cooldown"
+            android:label="Warm up and Cool down"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".imp_anatomy_fundaments"
+            android:label="Important Anatomy Fundamentals"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".nutridd_myth12"
+            android:label="Myth 12"
+            android:parentActivityName=".nutritiondd3_xii"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".nutridd_myth11"
+            android:label="Myth 11"
+            android:parentActivityName=".nutritiondd3_xii"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".nutridd_myth10"
+            android:label="Myth 10"
+            android:parentActivityName=".nutritiondd3_xii"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".nutridd_myth9"
+            android:label="Myth 9"
+            android:parentActivityName=".nutritiondd3_xii"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".nutridd_myth8"
+            android:label="Myth 8"
+            android:parentActivityName=".nutritiondd3_xii"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".nutridd_myth7"
+            android:label="Myth 7"
+            android:parentActivityName=".nutritiondd3_xii"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".nutridd_myth6"
+            android:label="Myth 6"
+            android:parentActivityName=".nutritiondd3_xii"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".nutridd_myth5"
+            android:label="Myth 5"
+            android:parentActivityName=".nutritiondd3_xii"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".nutridd_myth4"
+            android:label="Myth 4"
+            android:parentActivityName=".nutritiondd3_xii"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".nutridd_myth3"
+            android:label="Myth 3"
+            android:parentActivityName=".nutritiondd3_xii"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".nutridd_myth2"
+            android:label="Myth 2"
+            android:parentActivityName=".nutritiondd3_xii"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".nutridd_myth1"
+            android:label="Myth 1"
+            android:parentActivityName=".nutritiondd3_xii"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".nutridd_sugar"
+            android:label="Permanent Riddance of Sugar Cravings"
+            android:parentActivityName=".nutritiondd3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".nutridd_ped"
+            android:label="PEDs"
+            android:parentActivityName=".nutritiondd3_x"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".nutridd_recdrugs"
+            android:label="Recreational Drugs"
+            android:parentActivityName=".nutritiondd3_x"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".nutridd_smoking"
+            android:label="Smoking"
+            android:parentActivityName=".nutritiondd3_x"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".nutridd_alcohol3xa"
+            android:label="Alcohol"
+            android:parentActivityName=".nutritiondd3_x"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".nutridd_musclegain3ix"
+            android:label="Muscle Gain"
+            android:parentActivityName=".nutritiondd3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".nutridd_fatloss3viii"
+            android:label="Fat Loss"
+            android:parentActivityName=".nutritiondd3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".nutridd_vitaminK3viig"
+            android:label="Vitamin K"
+            android:parentActivityName=".nutritiondd3_vii"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".nutridd_vitaminE3viif"
+            android:label="Vitamin E"
+            android:parentActivityName=".nutritiondd3_vii"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".nutridd_vitaminD3viie"
+            android:label="Vitamin D"
+            android:parentActivityName=".nutritiondd3_vii"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".nutridd_vitaminC3viid"
+            android:label="Vitamin C"
+            android:parentActivityName=".nutritiondd3_vii"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".nutridd_vitaminB3viic"
+            android:label="Vitamin B Complex"
+            android:parentActivityName=".nutritiondd3_vii"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".nutridd_vitaminA3viib"
+            android:label="Vitamin A"
+            android:parentActivityName=".nutritiondd3_vii"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".nutridd_vitamin_intro3viia"
+            android:label="Introduction"
+            android:parentActivityName=".nutritiondd3_vii"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".nutridd_molybdenum3vin"
+            android:label="Molybdenum"
+            android:parentActivityName=".nutritiondd3_vi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".nutridd_selenium3vim"
+            android:label="Selenium"
+            android:parentActivityName=".nutritiondd3_vi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".nutridd_iodine3vil"
+            android:label="Iodine"
+            android:parentActivityName=".nutritiondd3_vi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".nutridd_copper3vik"
+            android:label="Copper"
+            android:parentActivityName=".nutritiondd3_vi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".nutridd_manganese3vij"
+            android:label="Manganese"
+            android:parentActivityName=".nutritiondd3_vi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".nutridd_magnesium3vig"
+            android:label="Magnesium"
+            android:parentActivityName=".nutritiondd3_vi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".nutridd_iron3vi_i"
+            android:label="Iron"
+            android:parentActivityName=".nutritiondd3_vi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".nutridd_zinc3vih"
+            android:label="Zinc"
+            android:parentActivityName=".nutritiondd3_vi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".nutridd_phosphorus3vif"
+            android:label="Phosphorus"
+            android:parentActivityName=".nutritiondd3_vi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".nutridd_calcium3vie"
+            android:label="Calcium"
+            android:parentActivityName=".nutritiondd3_vi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".nutridd_sodium3vid"
+            android:label="Sodium"
+            android:parentActivityName=".nutritiondd3_vi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".nutridd_chloride3vic"
+            android:label="Chloride"
+            android:parentActivityName=".nutritiondd3_vi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".nutridd_potassium3vib"
+            android:label="Potassium"
+            android:parentActivityName=".nutritiondd3_vi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".nutridd_minerals_intro3via"
+            android:label="Introduction"
+            android:parentActivityName=".nutritiondd3_vi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".nutridd_water3vb"
+            android:label="Water"
+            android:parentActivityName=".nutritiondd3_v"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".nutridd_fibre3va"
+            android:label="Fibre"
+            android:parentActivityName=".nutritiondd3_v"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".nutridd_fats3iv"
+            android:label="Fats"
+            android:parentActivityName=".nutritiondd3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".nutridd_proteins3iii"
+            android:label="Proteins"
+            android:parentActivityName=".nutritiondd3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".nutridd_carbs3ii"
+            android:label="Carbohydrates"
+            android:parentActivityName=".nutritiondd3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".nutridd_intro3i"
+            android:label="Introduction"
+            android:parentActivityName=".nutritiondd3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".pillars_rest2iii"
+            android:label="Rest and Recovery"
+            android:parentActivityName=".pillars2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".pillars_phy_activity2ii"
+            android:label="Physical Activity"
+            android:parentActivityName=".pillars2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".pillars_nutrition2i"
+            android:label="Nutrition"
+            android:parentActivityName=".pillars2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".spiritualfitness1if"
+            android:label="Spiritual Fitness"
+            android:parentActivityName=".intro1_i"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".emotionfitness1ie"
+            android:label="Emotional Fitness"
+            android:parentActivityName=".intro1_i"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".social_fitness1id"
+            android:label="Social Fitness"
+            android:parentActivityName=".intro1_i"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".mental_fitness1ic"
+            android:label="Mental Fitness"
+            android:parentActivityName=".intro1_i"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".physicalfitness1ib"
+            android:label="Physical Fitness"
+            android:parentActivityName=".intro1_i"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".intro1ia"
+            android:label="Introduction"
+            android:parentActivityName=".intro1_i"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".fitnessDemerits"
+            android:label="Demerits of Physical Fitness"
+            android:parentActivityName=".intro1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".whyfitness1ii"
+            android:label="Why Physical Fitness?"
+            android:parentActivityName=".intro1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".injuries18_viii"
+            android:label="Wrist Injuries"
+            android:parentActivityName=".injuries18" />
+        <activity
+            android:name=".injuries18_vii"
+            android:label="Elbow Tendinitis"
+            android:parentActivityName=".injuries18" />
+        <activity
+            android:name=".injuries18_iv"
+            android:label="Shoulder Injuries"
+            android:parentActivityName=".injuries18" />
+        <activity
+            android:name=".injuries18"
+            android:label="Dealing with Injuries"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".freestyle17"
+            android:label="Freestyle Calisthenics"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".cali_adv16"
+            android:label="Advanced Calisthenics"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".cali_inter15"
+            android:label="Calisthenics for Intermediates"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".cali_beg13_vi"
+            android:label="Beginner Calisthenic Leg exercises"
+            android:parentActivityName=".cali_beg13" />
+        <activity
+            android:name=".cali_beg13"
+            android:label="Calisthenics for Beginners"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".etiquettes11"
+            android:label="Gym Etiquette"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".gym9_iii"
+            android:label="Isolation Exercises"
+            android:parentActivityName=".gym9" />
+        <activity
+            android:name=".gym9_ii"
+            android:label="Compound Exercises"
+            android:parentActivityName=".gym9" />
+        <activity
+            android:name=".gym9"
+            android:label="Basic Resistance Training exercises in Gym"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".nutritiondd3_xii"
+            android:label="Popular Nutrition and Fitness Myths Debunked"
+            android:parentActivityName=".nutritiondd3" />
+        <activity
+            android:name=".nutritiondd3_x"
+            android:label="Biggest Enemies of Health and Fitness"
+            android:parentActivityName=".nutritiondd3" />
+        <activity
+            android:name=".nutritiondd3_vii"
+            android:label="Vitamins"
+            android:parentActivityName=".nutritiondd3" />
+        <activity
+            android:name=".nutritiondd3_vi"
+            android:label="Minerals"
+            android:parentActivityName=".nutritiondd3" />
+        <activity
+            android:name=".nutritiondd3_v"
+            android:label="Macronutrients that don&apos;t provide energy"
+            android:parentActivityName=".nutritiondd3" />
+        <activity
+            android:name=".nutritiondd3"
+            android:label="Nutrition Deep Dive"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".pillars2"
+            android:label="Three Pillars of Fitness"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".intro1_i"
+            android:label="What is Fitness?"
+            android:parentActivityName=".intro1" />
+        <activity
+            android:name=".intro1"
+            android:label="Introduction"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:label="FITNESS GUIDE"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

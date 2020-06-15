@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group1">
+        <item
+            android:id="@+id/about_us"
+            android:icon="@drawable/about_us_icon"
+            android:title="About Us" />
+        <item
+            android:id="@+id/about_this_app"
+            android:icon="@drawable/about_this_app_icon"
+            android:title="About This App" />
+
+    </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/group2">
+        <item
+            android:id="@+id/rate_this_app"
+            android:icon="@drawable/rate_this_app_icon"
+            android:title="Rate This App" />
+        <item
+            android:id="@+id/share_this_app"
+            android:icon="@drawable/share_this_app_icon"
+            android:title="Share This App" />
+        <item
+            android:id="@+id/follow_us"
+            android:icon="@drawable/follow_us_icon"
+            android:title="Follow Us" />
+        <item
+            android:id="@+id/feedback"
+            android:icon="@drawable/feedback_icon"
+            android:title="Feedback/Queries" />
+
+    </group>
+</menu>

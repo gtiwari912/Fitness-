@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pillars2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/larosa4_min"
+    android:alpha="1"
+    tools:context=".pillars2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.8"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/b2i"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#2196F3"
+                android:padding="5dp"
+                android:text="Nutrition"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b2ii"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#03A9F4"
+                android:padding="5dp"
+                android:text="Physical Activity"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b2iii"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#2196F3"
+                android:padding="5dp"
+                android:text="Rest and Recovery"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

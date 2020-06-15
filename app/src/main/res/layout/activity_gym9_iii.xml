@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gym9_iii"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/stefi_dbs"
+    android:alpha="1"
+    tools:context=".gym9_iii">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.8"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/b9iiia"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#673AB7"
+                android:padding="5dp"
+                android:text="Introduction"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b9iiib"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#3F51B5"
+                android:padding="5dp"
+                android:text="Biceps"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b9iiic"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#673AB7"
+                android:padding="5dp"
+                android:text="Triceps"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b9iiid"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#3F51B5"
+                android:padding="5dp"
+                android:text="Deltoids (Shoulders)"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b9iiie"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#673AB7"
+                android:padding="5dp"
+                android:text="Pectorals (Chest)"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b9iiif"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#3F51B5"
+                android:padding="5dp"
+                android:text="Trapezius (Traps)"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b9iiig"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#673AB7"
+                android:padding="5dp"
+                android:text="Glutes (Butts)"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b9iiih"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#3F51B5"
+                android:padding="5dp"
+                android:text="Quadriceps"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b9iii_i"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#673AB7"
+                android:padding="5dp"
+                android:text="Hamstrings"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b9iiij"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#3F51B5"
+                android:padding="5dp"
+                android:text="Calves"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

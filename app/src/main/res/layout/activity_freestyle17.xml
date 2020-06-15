@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/freestyle17"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bar_jump2"
+    android:alpha="1"
+    tools:context=".freestyle17">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.8"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/b17i"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#009688"
+                android:padding="5dp"
+                android:text="Introduction"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b17ii"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#4CAF50"
+                android:padding="5dp"
+                android:text="Pullover"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b17iii"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#009688"
+                android:padding="5dp"
+                android:text="Bar Kip up"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b17iv"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#4CAF50"
+                android:padding="5dp"
+                android:text="Bar Jump"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b17v"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#009688"
+                android:padding="5dp"
+                android:text="Bar Spin"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b17vi"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#4CAF50"
+                android:padding="5dp"
+                android:text="Shrimp Flip"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b17vii"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#009688"
+                android:padding="5dp"
+                android:text="Swing 360°"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b17viii"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#4CAF50"
+                android:padding="5dp"
+                android:text="Swing 540°"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b17ix"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#009688"
+                android:padding="5dp"
+                android:text="Swing 720°"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b17x"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#4CAF50"
+                android:padding="5dp"
+                android:text="Giant Swing"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

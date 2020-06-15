@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/injuries18"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/injuries"
+    android:alpha="1"
+    tools:context=".injuries18">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.8"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/b18i"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#FF9800"
+                android:padding="5dp"
+                android:text="Introduction"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b18ii"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#FFC107"
+                android:padding="5dp"
+                android:text="Muscle Pull or Strain"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b18iii"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#FF9800"
+                android:padding="5dp"
+                android:text="Ankle Sprain"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b18iv"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#FFC107"
+                android:padding="5dp"
+                android:text="Shoulder Injuries"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b18v"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#FF9800"
+                android:padding="5dp"
+                android:text="Knee Injury"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b18vi"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#FFC107"
+                android:padding="5dp"
+                android:text="Shin Splints"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b18vii"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#FF9800"
+                android:padding="5dp"
+                android:text="Elbow Tendinitis"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b18viii"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#FFC107"
+                android:padding="5dp"
+                android:text="Wrist Injuries"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+            android:id="@+id/b18ix"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="#FF9800"
+            android:padding="5dp"
+            android:text="Lower Back Injury"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+            <Button
+                android:id="@+id/b18x"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#FFC107"
+                android:padding="5dp"
+                android:text="Heel Pain"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nutritiondd3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nutrition2"
+    android:alpha="1"
+    tools:context=".nutritiondd3">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.8"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/b3i"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#9C27B0"
+                android:padding="5dp"
+                android:text="Introduction"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b3ii"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#673AB7"
+                android:padding="5dp"
+                android:text="Carbohydrates"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b3iii"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#9C27B0"
+                android:padding="5dp"
+                android:text="Proteins"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b3iv"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#673AB7"
+                android:padding="5dp"
+                android:text="Fats"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b3v"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#9C27B0"
+                android:padding="5dp"
+                android:text="Macronutrients that don't provide energy"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b3vi"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#673AB7"
+                android:padding="5dp"
+                android:text="Minerals"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b3vii"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#9C27B0"
+                android:padding="5dp"
+                android:text="Vitamins"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b3viii"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#673AB7"
+                android:padding="5dp"
+                android:text="Fat Loss"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b3ix"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#9C27B0"
+                android:padding="5dp"
+                android:text="Muscle Gain"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b3x"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#673AB7"
+                android:padding="5dp"
+                android:text="Biggest Enemies of Health and Fitness"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b3xi"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#9C27B0"
+                android:padding="5dp"
+                android:text="Permanent riddance of unhealthy Sugar Cravings"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b3xii"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#673AB7"
+                android:padding="5dp"
+                android:text="Popular Nutrition and Fitness Myths debunked"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

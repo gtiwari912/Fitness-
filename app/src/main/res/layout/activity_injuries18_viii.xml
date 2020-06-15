@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/injuries18_viii"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wristinjury"
+    android:alpha="1"
+    tools:context=".injuries18_viii">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.8"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/b18viiia"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#E91E63"
+                android:padding="5dp"
+                android:text="Introduction"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b18viiib"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#F44336"
+                android:padding="5dp"
+                android:text="Distal Radius Fracture"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b18viiic"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#E91E63"
+                android:padding="5dp"
+                android:text="Wrist Tendinitis"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b18viiid"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#F44336"
+                android:padding="5dp"
+                android:text="Wrist Sprain"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b18viiie"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#E91E63"
+                android:padding="5dp"
+                android:text="Dislocated Wrist"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b18viiif"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#F44336"
+                android:padding="5dp"
+                android:text="Wrist Arthritis"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b18viiig"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#E91E63"
+                android:padding="5dp"
+                android:text="Ganglion Cyst"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b18viiih"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#F44336"
+                android:padding="5dp"
+                android:text="Carpal Boss"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b18viii_i"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#E91E63"
+                android:padding="5dp"
+                android:text="Carpal Tunnel Syndrome"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b18viiij"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#F44336"
+                android:padding="5dp"
+                android:text="Cubital Tunnel Syndrome"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

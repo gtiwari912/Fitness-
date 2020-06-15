@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nutritiondd3_xii"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/myths"
+    android:alpha="1"
+    tools:context=".nutritiondd3_xii">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.8"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/b3xiia"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#FF5722"
+                android:padding="5dp"
+                android:text="Myth 1"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b3xiib"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#FF9800"
+                android:padding="5dp"
+                android:text="Myth 2"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b3xiic"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#FF5722"
+                android:padding="5dp"
+                android:text="Myth 3"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b3xiid"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#FF9800"
+                android:padding="5dp"
+                android:text="Myth 4"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b3xiie"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#FF5722"
+                android:padding="5dp"
+                android:text="Myth 5"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b3xiif"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#FF9800"
+                android:padding="5dp"
+                android:text="Myth 6"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b3xiig"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#FF5722"
+                android:padding="5dp"
+                android:text="Myth 7"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b3xiih"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#FF9800"
+                android:padding="5dp"
+                android:text="Myth 8"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b3xii_i"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#FF5722"
+                android:padding="5dp"
+                android:text="Myth 9"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b3xiij"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#FF9800"
+                android:padding="5dp"
+                android:text="Myth 10"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b3xiik"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#FF5722"
+                android:padding="5dp"
+                android:text="Myth 11"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b3xiil"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#FF9800"
+                android:padding="5dp"
+                android:text="Myth 12"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

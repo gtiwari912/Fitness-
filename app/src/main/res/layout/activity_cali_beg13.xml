@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cali_beg13"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_bg"
+    android:alpha="1"
+    tools:context=".cali_beg13">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.8"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/b13i"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#FF5722"
+                android:padding="5dp"
+                android:text="Introduction"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b13ii"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#FF9800"
+                android:padding="5dp"
+                android:text="Push Ups"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b13iii"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#FF5722"
+                android:padding="5dp"
+                android:text="Dips"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b13iv"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#FF9800"
+                android:padding="5dp"
+                android:text="Pull Ups"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b13v"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#FF5722"
+                android:padding="5dp"
+                android:text="Lying Core exercises"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b13vi"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#FF9800"
+                android:padding="5dp"
+                android:text="Beginner Calisthenic Leg exercises"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

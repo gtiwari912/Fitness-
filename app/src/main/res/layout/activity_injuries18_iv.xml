@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/injuries18_iv"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shoulder"
+    android:alpha="1"
+    tools:context=".injuries18_iv">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.8"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/b18iva"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#673AB7"
+                android:padding="5dp"
+                android:text="Introduction"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b18ivb"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#3F51B5"
+                android:padding="5dp"
+                android:text="Rotator Cuff Tear"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b18ivc"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#673AB7"
+                android:padding="5dp"
+                android:text="Shoulder Impingement"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b18ivd"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#3F51B5"
+                android:padding="5dp"
+                android:text="Dislocated Shoulder"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b18ive"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#673AB7"
+                android:padding="5dp"
+                android:text="SLAP Tear"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b18ivf"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#3F51B5"
+                android:padding="5dp"
+                android:text="Frozen Shoulder"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b18ivg"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#673AB7"
+                android:padding="5dp"
+                android:text="Shoulder Osteoarthritis"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

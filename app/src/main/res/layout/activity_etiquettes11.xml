@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/etiquettes11"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bad_gym_etiquette"
+    android:alpha="1"
+    tools:context=".etiquettes11">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.8"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/b11i"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#009688"
+                android:padding="5dp"
+                android:text="Introduction"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b11ii"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#4CAF50"
+                android:padding="5dp"
+                android:text="Common Gym Mistakes"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/b11iii"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#009688"
+                android:padding="5dp"
+                android:text="Less Common Gym Mistakes"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
