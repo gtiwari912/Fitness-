@@ -7,14 +7,21 @@ Hey Everyone! Check out my new Android App:-
 
 https://play.google.com/store/apps/details?id=com.abhisheksawant.FitnessGuide
 
-<img src="https://play-lh.googleusercontent.com/YVKoY3ZqTKZt9kb03wmq6WZYYBqLwgZ_LOL10pL3qmGtRaILZwWQe4QUGcJ1vpJLois=w720-h310-rw">
-<img src="https://play-lh.googleusercontent.com/NvGNOCQBKjbu9tgB5frTHYJR0Ex3C-uhBjOfdqFIty5wkARJdWYZDqxl2-ItL0LbkrA=w720-h310-rw">
-<img src="https://play-lh.googleusercontent.com/Tg8tz0vsrMEjrAm5ZyBFac290BZJKKJb3-JrukUxiElm1e5Gq3MRzL3_XMKqp5fT_Pg=w720-h310-rw">
-<img src="https://play-lh.googleusercontent.com/GQTscEaZppLugaI-swMGAkKAPJaofT-YCJ8Ncn0kCeINVTJznzWe5-iH4jadxLa5lb4=w720-h310-rw">
-<img src="https://play-lh.googleusercontent.com/Raa3ftDwnVRNVXhcTbpGC1NUjMNtZa3OxgOOiuNe3ggnXjBckTEMFZumtJ8sMQP8oW8=w720-h310-rw">
-<img src="https://play-lh.googleusercontent.com/zUgc5jqbtOCiiDvgAMLBF190bpSyUfWnFaqvJZ_8dR_jE9y1W9gyzgalQvY-9Hi7C70=w720-h310-rw">
-<img src="https://play-lh.googleusercontent.com/ZLCEAxN2Widc8lLsETkClibJQnxv4C26UUfcv8NL0SWfqBmfBMuw4Kz0-E4KV_pwTw=w720-h310-rw">
-<img src="https://play-lh.googleusercontent.com/CDS1p4MJ7lL4sdlSHia5VPWfh3Lu7Hp87iJyi5l_RBJ3w2gcEkveSqbGg_8Zobq-aRg=w720-h310-rw">
+<h4><b>Screenshots:-</b></h2>
+<table>
+  <tr>
+    <td><img src="https://play-lh.googleusercontent.com/YVKoY3ZqTKZt9kb03wmq6WZYYBqLwgZ_LOL10pL3qmGtRaILZwWQe4QUGcJ1vpJLois=w720-h310-rw"></td>
+    <td><img src="https://play-lh.googleusercontent.com/NvGNOCQBKjbu9tgB5frTHYJR0Ex3C-uhBjOfdqFIty5wkARJdWYZDqxl2-ItL0LbkrA=w720-h310-rw"></td>
+    <td><img src="https://play-lh.googleusercontent.com/Tg8tz0vsrMEjrAm5ZyBFac290BZJKKJb3-JrukUxiElm1e5Gq3MRzL3_XMKqp5fT_Pg=w720-h310-rw"></td>
+    <td><img src="https://play-lh.googleusercontent.com/GQTscEaZppLugaI-swMGAkKAPJaofT-YCJ8Ncn0kCeINVTJznzWe5-iH4jadxLa5lb4=w720-h310-rw"></td>
+  </tr>
+  <tr>
+    <td><img src="https://play-lh.googleusercontent.com/Raa3ftDwnVRNVXhcTbpGC1NUjMNtZa3OxgOOiuNe3ggnXjBckTEMFZumtJ8sMQP8oW8=w720-h310-rw"></td>
+    <td><img src="https://play-lh.googleusercontent.com/zUgc5jqbtOCiiDvgAMLBF190bpSyUfWnFaqvJZ_8dR_jE9y1W9gyzgalQvY-9Hi7C70=w720-h310-rw"></td>
+    <td><img src="https://play-lh.googleusercontent.com/ZLCEAxN2Widc8lLsETkClibJQnxv4C26UUfcv8NL0SWfqBmfBMuw4Kz0-E4KV_pwTw=w720-h310-rw"></td>
+    <td><img src="https://play-lh.googleusercontent.com/CDS1p4MJ7lL4sdlSHia5VPWfh3Lu7Hp87iJyi5l_RBJ3w2gcEkveSqbGg_8Zobq-aRg=w720-h310-rw"></td>
+  </tr>
+</table>
 
 This app serves as the 'Ultimate Health and Fitness Guide' for anyone above 15 years of age. The main goal of this app is to spread 'AWARENESS' regarding the 'CORRECT' ways of pursuing a 'Fitness Lifestyle' rather than the 'FASTEST' ways to pursue it.
 This app focuses on building a PROPER ATTITUTE towards 'Fitness, Nutrition and Resistance Training', which can CERTAINLY help you stay CONSISTENT with it for your LIFETIME!
