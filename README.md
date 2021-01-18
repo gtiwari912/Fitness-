@@ -3,7 +3,7 @@ This is an Android App which serves as the 'Ultimate Fitness Guide' for anyone i
 
 Hey Everyone! Check out my new Android App:-
 
-'FITNESS GUIDE for Beginner/Intermediate/Advanced'. 👇
+<b>'FITNESS GUIDE for Beginner/Intermediate/Advanced'.</b> 👇
 
 https://play.google.com/store/apps/details?id=com.abhisheksawant.FitnessGuide
 
