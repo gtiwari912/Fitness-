@@ -7,7 +7,7 @@ Hey Everyone! Check out my new Android App:-
 
 https://play.google.com/store/apps/details?id=com.abhisheksawant.FitnessGuide
 
-<h4><b>Screenshots:-</b></h2>
+<h3><b>Screenshots:-</b></h3>
 <table>
   <tr>
     <td><img src="https://play-lh.googleusercontent.com/YVKoY3ZqTKZt9kb03wmq6WZYYBqLwgZ_LOL10pL3qmGtRaILZwWQe4QUGcJ1vpJLois=w720-h310-rw"></td>
