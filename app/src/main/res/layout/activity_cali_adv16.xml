@@ -5,7 +5,7 @@
     android:id="@+id/cali_adv16"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/adv_cali"
+    android:background="@drawable/larosa_planche"
     android:alpha="1"
     tools:context=".cali_adv16">
 
@@ -16,7 +16,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:alpha="0.8"
+            android:alpha="0.65"
             android:orientation="vertical">
 
             <Button

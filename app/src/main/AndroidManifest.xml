@@ -388,7 +388,7 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".cali_wisdom"
-            android:label="Words of Wisdom (Calisthenics edition)"
+            android:label="Words of Wisdom (Part 2)"
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
@@ -453,7 +453,7 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".gym_wisdom"
-            android:label="Words of Wisdom (Gym edition)"
+            android:label="Words of Wisdom (Part 1)"
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity

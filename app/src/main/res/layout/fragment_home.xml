@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:alpha="1"
-    android:background="@drawable/stipke"
+    android:background="@drawable/larosa_home2"
     tools:context=".ui.home.HomeFragment">
 
 
@@ -18,7 +18,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:alpha="0.7"
+            android:alpha="0.65"
             android:orientation="vertical">
 
 
@@ -160,7 +160,7 @@
                 android:layout_height="70dp"
                 android:background="#673AB7"
                 android:padding="5dp"
-                android:text="Words of Wisdom (Gym edition)"
+                android:text="Words of Wisdom (Part 1)"
                 android:textAllCaps="false"
                 android:textColor="#FFFFFF"
                 android:textSize="20sp"
@@ -184,7 +184,7 @@
                 android:layout_height="70dp"
                 android:background="#673AB7"
                 android:padding="5dp"
-                android:text="Words of Wisdom (Calisthenics edition)"
+                android:text="Words of Wisdom (Part 2)"
                 android:textAllCaps="false"
                 android:textColor="#FFFFFF"
                 android:textSize="20sp"
