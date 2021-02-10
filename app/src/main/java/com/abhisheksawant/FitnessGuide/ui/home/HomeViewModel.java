@@ -1,4 +1,4 @@
-package com.abhisheksawant.fitnessmanual.ui.home;
+package com.abhisheksawant.FitnessGuide.ui.home;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
