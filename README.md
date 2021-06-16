@@ -45,5 +45,5 @@ This app focuses on building a **PROPER ATTITUDE** towards `Fitness, Nutrition a
 In short, this app contains everything that I wish I personally knew when I started my Fitness Journey. It not only includes mine, but also the experiences of the 'Best Fitness and Calisthenics Experts' around the GLOBE. So, PLEASE make use of this app to AVOID tons of mistakes that I committed in my Fitness Journey.
 Also, please share this app to as many contacts as possible to spread more awareness.
 
-**Thanks a ton** for your PATIENCE, now go ahead and **INSTALL the app** to ENJOY and REAP ITS BENEFITS 🙂<br>
+**Thanks a TON** for your PATIENCE, now go ahead and **INSTALL the app** to ENJOY and REAP ITS BENEFITS 🙂<br>
 > Please make sure to go through `About This App` section, before proceeding with the app.
