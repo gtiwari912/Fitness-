@@ -26,10 +26,6 @@
             android:icon="@drawable/share_this_app_icon"
             android:title="Share This App" />
         <item
-            android:id="@+id/follow_us"
-            android:icon="@drawable/follow_us_icon"
-            android:title="Follow Us" />
-        <item
             android:id="@+id/feedback"
             android:icon="@drawable/feedback_icon"
             android:title="Feedback/Queries" />

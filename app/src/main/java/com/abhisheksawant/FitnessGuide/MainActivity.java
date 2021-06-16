@@ -64,11 +64,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 rateIntent.setData(Uri.parse("https://play.google.com/store/apps/details?id=com.abhisheksawant.FitnessGuide"));
                 startActivity(rateIntent);
                 break;
-            case R.id.follow_us:
-                Intent followIntent = new Intent(Intent.ACTION_VIEW);
-                followIntent.setData(Uri.parse("https://www.instagram.com/sawant807/"));
-                startActivity(followIntent);
-                break;
             case R.id.share_this_app:
                 Intent shareIntent = new Intent(Intent.ACTION_SEND);
                 shareIntent.putExtra(Intent.EXTRA_TEXT,
