@@ -1,5 +1,5 @@
 # Fitness Guide Android App
-This is an Android App which serves as the **Ultimate Fitness Guide** for anyone who wants to master `Health and Fitness`.
+This is an Android App which serves as the **Ultimate Fitness Guide** for anyone who wants to get fit and strong.
 
 > [Google Play Store App link](https://play.google.com/store/apps/details?id=com.abhisheksawant.FitnessGuide)
 
@@ -20,7 +20,7 @@ This is an Android App which serves as the **Ultimate Fitness Guide** for anyone
   </tr>
 </table>
 
-This app serves as the **Ultimate Health and Fitness Guide** for anyone who wants to get fit and strong. The main goal of this app is to spread `awareness` regarding the `correct` ways of pursuing a Fitness Lifestyle rather than the fastest ways to pursue it.
+The main goal of this app is to spread `awareness` regarding the `correct` ways of pursuing a Fitness Lifestyle rather than the fastest ways to pursue it.
 This app focuses on building a **positive attitute** towards `Fitness, Nutrition and Resistance Training`, which can be an awesome recipe for consistency!
 
 ## Unique Topics
