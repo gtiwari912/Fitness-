@@ -20,7 +20,7 @@ This is an Android App which serves as the **Ultimate Fitness Guide** for anyone
   </tr>
 </table>
 
-The main goal of this app is to spread `awareness` regarding the `correct` ways of pursuing a Fitness Lifestyle rather than the fastest ways to pursue it.
+The goal of this app is to spread `awareness` regarding the `correct` ways of pursuing a Fitness Lifestyle rather than the fastest ways to pursue it.
 This app focuses on building a **positive attitute** towards `Fitness, Nutrition and Resistance Training`, which can be an awesome recipe for consistency!
 
 ## Unique Topics
