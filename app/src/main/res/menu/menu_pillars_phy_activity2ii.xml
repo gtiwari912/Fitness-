@@ -1,7 +1,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.abhisheksawant.FitnessGuide.pillars_phy_activity2ii">
+    tools:context="com.abhishek.FitnessGuide.pillars_phy_activity2ii">
     <item
         android:id="@+id/action_settings"
         android:orderInCategory="100"

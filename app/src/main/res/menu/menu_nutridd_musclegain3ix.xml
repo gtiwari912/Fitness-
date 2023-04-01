@@ -1,7 +1,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.abhisheksawant.FitnessGuide.nutridd_musclegain3ix">
+    tools:context="com.abhishek.FitnessGuide.nutridd_musclegain3ix">
     <item
         android:id="@+id/action_settings"
         android:orderInCategory="100"

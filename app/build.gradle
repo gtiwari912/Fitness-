@@ -4,7 +4,7 @@ android {
     compileSdkVersion 33
 
     defaultConfig {
-        applicationId "com.abhisheksawant.FitnessGuide"
+        applicationId "com.abhishek.FitnessGuide"
         minSdkVersion 25
         targetSdkVersion 33
         versionCode 9
@@ -29,7 +29,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
-    namespace 'com.abhisheksawant.FitnessGuide'
+    namespace 'com.abhishek.FitnessGuide'
 
 }
 
