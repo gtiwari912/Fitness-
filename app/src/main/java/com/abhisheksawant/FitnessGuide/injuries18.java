@@ -60,7 +60,7 @@ public class injuries18 extends AppCompatActivity {
         b18iii.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(injuries18.this,ankle_sprain.class);
+                Intent intent = new Intent(injuries18.this, AnkleSprain.class);
                 startActivity(intent);
             }
         });

@@ -36,7 +36,7 @@ public class gym9 extends AppCompatActivity {
         b9i.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(gym9.this,basic_restrain_intro.class);
+                Intent intent = new Intent(gym9.this, BasicRestrainInfo.class);
                 startActivity(intent);
             }
         });

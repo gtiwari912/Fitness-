@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.abhisheksawant.FitnessGuide">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
 
     <application
         android:allowBackup="true"
@@ -10,17 +11,17 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".bruised_heel"
+            android:name=".BruisedHeel"
             android:label="Bruised Heel"
             android:parentActivityName=".injuries18_x"
             android:theme="@style/AppTheme.NoActionBar"/>
         <activity
-            android:name=".calcaneus_stress_fracture"
+            android:name=".CalcaneusStressFracture"
             android:label="Calcaneus Stress Fracture"
             android:parentActivityName=".injuries18_x"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".achilles_tendinitis"
+            android:name=".AchillesTendinitis"
             android:label="Achilles Tendinitis"
             android:parentActivityName=".injuries18_x"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -44,112 +45,112 @@
             android:label="Heel Pain"
             android:parentActivityName=".injuries18" />
         <activity
-            android:name=".about_this_app"
+            android:name=".AboutThisApp"
             android:label="About This App"
             android:parentActivityName=".MainActivity" />
         <activity
-            android:name=".about_us"
+            android:name=".AboutUs"
             android:label="About Us"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".victorian_cross"
             android:label="Victorian Cross"
-            android:parentActivityName=".cali_adv16"
+            android:parentActivityName=".CaliAdv16"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".inverted_cross"
             android:label="Inverted Cross"
-            android:parentActivityName=".cali_adv16"
+            android:parentActivityName=".CaliAdv16"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".iron_cross"
             android:label="Iron Cross"
-            android:parentActivityName=".cali_adv16"
+            android:parentActivityName=".CaliAdv16"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".maltese"
             android:label="Maltese"
-            android:parentActivityName=".cali_adv16"
+            android:parentActivityName=".CaliAdv16"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".planche"
             android:label="Planche"
-            android:parentActivityName=".cali_adv16"
+            android:parentActivityName=".CaliAdv16"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".entrada_de_angel"
             android:label="Entrada de ángel"
-            android:parentActivityName=".cali_adv16"
+            android:parentActivityName=".CaliAdv16"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".hefesto"
             android:label="Hefesto"
-            android:parentActivityName=".cali_adv16"
+            android:parentActivityName=".CaliAdv16"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".oap"
             android:label="One Arm Pull up (OAP)"
-            android:parentActivityName=".cali_adv16"
+            android:parentActivityName=".CaliAdv16"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".oac"
             android:label="One Arm Chin up (OAC)"
-            android:parentActivityName=".cali_adv16"
+            android:parentActivityName=".CaliAdv16"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".manna"
             android:label="Manna"
-            android:parentActivityName=".cali_adv16"
+            android:parentActivityName=".CaliAdv16"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".vsit"
             android:label="V-sit"
-            android:parentActivityName=".cali_adv16"
+            android:parentActivityName=".CaliAdv16"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".front_lever"
             android:label="Front Lever"
-            android:parentActivityName=".cali_adv16"
+            android:parentActivityName=".CaliAdv16"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".back_lever"
+            android:name=".BackLever"
             android:label="Back Lever"
-            android:parentActivityName=".cali_adv16"
+            android:parentActivityName=".CaliAdv16"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".human_flag"
             android:label="Human Flag"
-            android:parentActivityName=".cali_adv16"
+            android:parentActivityName=".CaliAdv16"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".shoulder_flag"
             android:label="Shoulder Flag"
-            android:parentActivityName=".cali_adv16"
+            android:parentActivityName=".CaliAdv16"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".imp_dip"
             android:label="Impossible Dip"
-            android:parentActivityName=".cali_adv16"
+            android:parentActivityName=".CaliAdv16"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".oah"
             android:label="One Arm Handstand"
-            android:parentActivityName=".cali_adv16"
+            android:parentActivityName=".CaliAdv16"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".hspu90"
             android:label="90° Handstand Push Up"
-            android:parentActivityName=".cali_adv16"
+            android:parentActivityName=".CaliAdv16"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".hspu"
             android:label="Handstand Push Up (HSPU)"
-            android:parentActivityName=".cali_adv16"
+            android:parentActivityName=".CaliAdv16"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".cali_adv_intro"
+            android:name=".CaliAdvIntro"
             android:label="Introduction"
-            android:parentActivityName=".cali_adv16"
+            android:parentActivityName=".CaliAdv16"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".nordic_curl"
@@ -207,17 +208,17 @@
             android:parentActivityName=".freestyle17"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".bar_spin"
+            android:name=".BarSpin"
             android:label="Bar Spin"
             android:parentActivityName=".freestyle17"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".bar_jump"
+            android:name=".BarJump"
             android:label="Bar Jump"
             android:parentActivityName=".freestyle17"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".bar_kip_up"
+            android:name=".BarKipUp"
             android:label="Bar Kip up"
             android:parentActivityName=".freestyle17"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -347,7 +348,7 @@
             android:parentActivityName=".injuries18_iv"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".ankle_sprain"
+            android:name=".AnkleSprain"
             android:label="Ankle Sprain"
             android:parentActivityName=".injuries18"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -412,7 +413,7 @@
             android:parentActivityName=".cali_beg13_vi"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".archer_squats"
+            android:name=".ArcherSquats"
             android:label="Archer Squats"
             android:parentActivityName=".cali_beg13_vi"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -422,37 +423,37 @@
             android:parentActivityName=".cali_beg13_vi"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".airsquats"
+            android:name=".AirSquats"
             android:label="Air Squats"
             android:parentActivityName=".cali_beg13_vi"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".lyingcore"
             android:label="Lying Core exercises"
-            android:parentActivityName=".cali_beg13"
+            android:parentActivityName=".CaliBeg13"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".pullups"
             android:label="Pull Ups"
-            android:parentActivityName=".cali_beg13"
+            android:parentActivityName=".CaliBeg13"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".dips"
             android:label="Dips"
-            android:parentActivityName=".cali_beg13"
+            android:parentActivityName=".CaliBeg13"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".pushup"
             android:label="Push Ups"
-            android:parentActivityName=".cali_beg13"
+            android:parentActivityName=".CaliBeg13"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".cali_beg_intro"
             android:label="Introduction"
-            android:parentActivityName=".cali_beg13"
+            android:parentActivityName=".CaliBeg13"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".gym_wisdom"
+            android:name=".GymWisdom"
             android:label="Words of Wisdom (Part 1)"
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -477,7 +478,7 @@
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".calves"
+            android:name=".Calves"
             android:label="Calves"
             android:parentActivityName=".gym9_iii"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -517,7 +518,7 @@
             android:parentActivityName=".gym9_iii"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".biceps"
+            android:name=".Biceps"
             android:label="Biceps"
             android:parentActivityName=".gym9_iii"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -532,17 +533,17 @@
             android:parentActivityName=".gym9_ii"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".barbellrows"
+            android:name=".BarbellRows"
             android:label="Rows"
             android:parentActivityName=".gym9_ii"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".ohp"
+            android:name=".OHP"
             android:label="Overhead Press (OHP)"
             android:parentActivityName=".gym9_ii"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".benchpress"
+            android:name=".BenchPress"
             android:label="Bench Press"
             android:parentActivityName=".gym9_ii"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -552,7 +553,7 @@
             android:parentActivityName=".gym9_ii"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".barbell_squats"
+            android:name=".BarbellSquats"
             android:label="Barbell Squats"
             android:parentActivityName=".gym9_ii"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -567,7 +568,7 @@
             android:parentActivityName=".gym9_ii"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".basic_restrain_intro"
+            android:name=".BasicRestrainInfo"
             android:label="Introduction"
             android:parentActivityName=".gym9"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -577,7 +578,7 @@
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".cardio"
+            android:name=".Cardio"
             android:label="Cardiovascular or Aerobic exercises"
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -862,7 +863,7 @@
             android:parentActivityName=".intro1_i"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".physicalfitness1ib"
+            android:name=".PhysicalFitness1ib"
             android:label="Physical Fitness"
             android:parentActivityName=".intro1_i"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -902,7 +903,7 @@
             android:label="Freestyle Calisthenics"
             android:parentActivityName=".MainActivity" />
         <activity
-            android:name=".cali_adv16"
+            android:name=".CaliAdv16"
             android:label="Advanced Calisthenics"
             android:parentActivityName=".MainActivity" />
         <activity
@@ -912,9 +913,9 @@
         <activity
             android:name=".cali_beg13_vi"
             android:label="Beginner Calisthenic Leg exercises"
-            android:parentActivityName=".cali_beg13" />
+            android:parentActivityName=".CaliBeg13" />
         <activity
-            android:name=".cali_beg13"
+            android:name=".CaliBeg13"
             android:label="Calisthenics for Beginners"
             android:parentActivityName=".MainActivity" />
         <activity
@@ -972,7 +973,8 @@
         <activity
             android:name=".MainActivity"
             android:label="FITNESS GUIDE"
-            android:theme="@style/SplashTheme">
+            android:theme="@style/SplashTheme"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

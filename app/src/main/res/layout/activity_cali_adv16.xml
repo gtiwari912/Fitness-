@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/larosa_planche"
     android:alpha="1"
-    tools:context=".cali_adv16">
+    tools:context=".CaliAdv16">
 
     <ScrollView
         android:layout_width="match_parent"

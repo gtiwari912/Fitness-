@@ -1,16 +1,12 @@
 package com.abhisheksawant.FitnessGuide;
 
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.MenuItem;
-import android.widget.CompoundButton;
-import android.widget.Switch;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.app.AppCompatDelegate;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
@@ -54,10 +50,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
         switch (menuItem.getItemId()) {
             case R.id.about_us:
-                startActivity(new Intent(MainActivity.this, about_us.class));
+                startActivity(new Intent(MainActivity.this, AboutUs.class));
                 break;
             case R.id.about_this_app:
-                startActivity(new Intent(MainActivity.this, about_this_app.class));
+                startActivity(new Intent(MainActivity.this, AboutThisApp.class));
                 break;
             case R.id.rate_this_app:
                 Intent rateIntent = new Intent(Intent.ACTION_VIEW);

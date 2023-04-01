@@ -36,7 +36,7 @@ public class freestyle17 extends AppCompatActivity {
         b17iii.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(freestyle17.this,bar_kip_up.class);
+                Intent intent = new Intent(freestyle17.this, BarKipUp.class);
                 startActivity(intent);
             }
         });
@@ -44,7 +44,7 @@ public class freestyle17 extends AppCompatActivity {
         b17iv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(freestyle17.this,bar_jump.class);
+                Intent intent = new Intent(freestyle17.this, BarJump.class);
                 startActivity(intent);
             }
         });
@@ -52,7 +52,7 @@ public class freestyle17 extends AppCompatActivity {
         b17v.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(freestyle17.this,bar_spin.class);
+                Intent intent = new Intent(freestyle17.this, BarSpin.class);
                 startActivity(intent);
             }
         });

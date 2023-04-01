@@ -12,16 +12,16 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
 import com.abhisheksawant.FitnessGuide.R;
-import com.abhisheksawant.FitnessGuide.cali_adv16;
-import com.abhisheksawant.FitnessGuide.cali_beg13;
+import com.abhisheksawant.FitnessGuide.CaliAdv16;
+import com.abhisheksawant.FitnessGuide.CaliBeg13;
 import com.abhisheksawant.FitnessGuide.cali_inter15;
 import com.abhisheksawant.FitnessGuide.cali_wisdom;
-import com.abhisheksawant.FitnessGuide.cardio;
+import com.abhisheksawant.FitnessGuide.Cardio;
 import com.abhisheksawant.FitnessGuide.etiquettes11;
 import com.abhisheksawant.FitnessGuide.freestyle17;
 import com.abhisheksawant.FitnessGuide.goalsetting;
 import com.abhisheksawant.FitnessGuide.gym9;
-import com.abhisheksawant.FitnessGuide.gym_wisdom;
+import com.abhisheksawant.FitnessGuide.GymWisdom;
 import com.abhisheksawant.FitnessGuide.imp_anatomy_fundaments;
 import com.abhisheksawant.FitnessGuide.injuries18;
 import com.abhisheksawant.FitnessGuide.intro1;
@@ -84,7 +84,7 @@ public class HomeFragment extends Fragment {
         b13.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), cali_beg13.class);
+                Intent intent = new Intent(getActivity(), CaliBeg13.class);
                 startActivity(intent);
             }
         });
@@ -100,7 +100,7 @@ public class HomeFragment extends Fragment {
         b16.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), cali_adv16.class);
+                Intent intent = new Intent(getActivity(), CaliAdv16.class);
                 startActivity(intent);
             }
         });
@@ -148,7 +148,7 @@ public class HomeFragment extends Fragment {
         b7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), cardio.class);
+                Intent intent = new Intent(getActivity(), Cardio.class);
                 startActivity(intent);
             }
         });
@@ -172,7 +172,7 @@ public class HomeFragment extends Fragment {
         b12.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), gym_wisdom.class);
+                Intent intent = new Intent(getActivity(), GymWisdom.class);
                 startActivity(intent);
             }
         });

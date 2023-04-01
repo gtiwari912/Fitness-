@@ -44,7 +44,7 @@ public class injuries18_x extends AppCompatActivity {
         b18xd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(injuries18_x.this,achilles_tendinitis.class);
+                Intent intent = new Intent(injuries18_x.this, AchillesTendinitis.class);
                 startActivity(intent);
             }
         });
@@ -52,7 +52,7 @@ public class injuries18_x extends AppCompatActivity {
         b18xe.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(injuries18_x.this,calcaneus_stress_fracture.class);
+                Intent intent = new Intent(injuries18_x.this, CalcaneusStressFracture.class);
                 startActivity(intent);
             }
         });
@@ -60,7 +60,7 @@ public class injuries18_x extends AppCompatActivity {
         b18xf.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(injuries18_x.this,bruised_heel.class);
+                Intent intent = new Intent(injuries18_x.this, BruisedHeel.class);
                 startActivity(intent);
             }
         });

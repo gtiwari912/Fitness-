@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/back_bg"
     android:alpha="1"
-    tools:context=".cali_beg13">
+    tools:context=".CaliBeg13">
 
     <ScrollView
         android:layout_width="match_parent"
