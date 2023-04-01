@@ -8,7 +8,6 @@ As an avid Android user myself, I take privacy very seriously.
 I know how irritating it is when apps collect your data without your knowledge.
 
 I hereby state, to the best of my knowledge and belief, that I have not programmed this app to collect any personally identifiable information. This app does not involve any sort of authentication or login. This app is purely meant for spreading awareness regarding fitness through text, images, linked articles and videos. That's it. There's absolutely no need for you to enter any sort of personal info to access its content.
-
 <br/>
 
  <hr style="border:1px solid gray">
