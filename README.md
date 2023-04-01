@@ -7,16 +7,16 @@ This is an Android App which serves as the **Ultimate Fitness Guide** for anyone
 
 <table>
   <tr>
-    <td><img src="https://play-lh.googleusercontent.com/YVKoY3ZqTKZt9kb03wmq6WZYYBqLwgZ_LOL10pL3qmGtRaILZwWQe4QUGcJ1vpJLois=w720-h310-rw"></td>
-    <td><img src="https://play-lh.googleusercontent.com/NvGNOCQBKjbu9tgB5frTHYJR0Ex3C-uhBjOfdqFIty5wkARJdWYZDqxl2-ItL0LbkrA=w720-h310-rw"></td>
-    <td><img src="https://play-lh.googleusercontent.com/Tg8tz0vsrMEjrAm5ZyBFac290BZJKKJb3-JrukUxiElm1e5Gq3MRzL3_XMKqp5fT_Pg=w720-h310-rw"></td>
-    <td><img src="https://play-lh.googleusercontent.com/GQTscEaZppLugaI-swMGAkKAPJaofT-YCJ8Ncn0kCeINVTJznzWe5-iH4jadxLa5lb4=w720-h310-rw"></td>
+    <td><img src="https://lh3.googleusercontent.com/LyU01_7_qZ-2kqlRAaq0NnVl-9S0DLEdaAiFxK-lnKQ7Ci7O4OrH8P1AP3VrJn9_W2y3"></td>
+    <td><img src="https://lh3.googleusercontent.com/orr_jHiZYiDk_El1JECEmw-mhJ6YOyu94F8zWStH_0gekGvWEDP7XUQiRj2vmfN4Iyo"></td>
+    <td><img src="https://lh3.googleusercontent.com/3pAjpKFpdz_CQa7hfFWspoJdUHpYYoaQCt5u2anZlPIq_I48q_OYcW80HU1L_34vwss"></td>
+    <td><img src="https://lh3.googleusercontent.com/Pet0bT3EmvosRdUNB7c3oits4l5wCReZkYg8X0K_lAxd09EibiyK6aWDMo968kW09EU"></td>
   </tr>
   <tr>
-    <td><img src="https://play-lh.googleusercontent.com/Raa3ftDwnVRNVXhcTbpGC1NUjMNtZa3OxgOOiuNe3ggnXjBckTEMFZumtJ8sMQP8oW8=w720-h310-rw"></td>
-    <td><img src="https://play-lh.googleusercontent.com/zUgc5jqbtOCiiDvgAMLBF190bpSyUfWnFaqvJZ_8dR_jE9y1W9gyzgalQvY-9Hi7C70=w720-h310-rw"></td>
-    <td><img src="https://play-lh.googleusercontent.com/ZLCEAxN2Widc8lLsETkClibJQnxv4C26UUfcv8NL0SWfqBmfBMuw4Kz0-E4KV_pwTw=w720-h310-rw"></td>
-    <td><img src="https://play-lh.googleusercontent.com/CDS1p4MJ7lL4sdlSHia5VPWfh3Lu7Hp87iJyi5l_RBJ3w2gcEkveSqbGg_8Zobq-aRg=w720-h310-rw"></td>
+    <td><img src="https://lh3.googleusercontent.com/dPvRmXsziNk4YDpJDcZ6Z04ErS7s23ESeBMRXzcWLv-dYhYnuDlZsYt_4zZhf02Tgw"></td>
+    <td><img src="https://lh3.googleusercontent.com/qXiIdHkj_e4a9fPG9oaMAIXcxW-tuo1kkWGeXMjrRBHbD4VnBwrh0Lg2ICTMi3I7sA"></td>
+    <td><img src="https://lh3.googleusercontent.com/iV63OZUlVwNlzazEIVobJCdF2Kt1QsxVTIUy7SkLRATB_c8AnvyUbcE5mPejV3kJxnc"></td>
+    <td><img src="https://lh3.googleusercontent.com/mJO5CbwUA9T5OSW2CnPbXZz7dsjGZ1LHae3lAl3iIZFK55jEwnh6Kgzu5HNhDWJhytHy"></td>
   </tr>
 </table>
 
