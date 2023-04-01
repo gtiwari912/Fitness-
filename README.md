@@ -20,8 +20,8 @@ This is an Android App which serves as the **Ultimate Fitness Guide** for anyone
   </tr>
 </table>
 
-This app serves as the **Ultimate Health and Fitness Guide** for anyone above 15 years of age. The main goal of this app is to spread `AWARENESS` regarding the `CORRECT` ways of pursuing a `Fitness Lifestyle` rather than the `FASTEST` ways to pursue it.
-This app focuses on building a **PROPER ATTITUDE** towards `Fitness, Nutrition and Resistance Training`, which can CERTAINLY help you stay CONSISTENT with it for your LIFETIME!
+This app serves as the **Ultimate Health and Fitness Guide** for anyone who wants to get fit and strong. The main goal of this app is to spread `awareness` regarding the `correct` ways of pursuing a Fitness Lifestyle rather than the fastest ways to pursue it.
+This app focuses on building a **positive attitute** towards `Fitness, Nutrition and Resistance Training`, which can be an awesome recipe for consistency!
 
 ## Unique Topics
 
