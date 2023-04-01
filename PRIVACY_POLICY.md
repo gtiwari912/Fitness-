@@ -1,4 +1,4 @@
-## Fitness Guide for Beginners/Intermediate/Advanced: Privacy policy
+## Fitness Guide for Beginners: Privacy policy
 
 Welcome to the Fitness Guide App for Android!
 
