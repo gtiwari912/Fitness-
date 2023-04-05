@@ -9,10 +9,40 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".Splits"
+            android:exported="false" />
+        <activity
+            android:name=".ThreeDaySplit"
+            android:exported="false" />
+        <activity
+            android:name=".FourDaySplit"
+            android:exported="false" />
+        <activity
+            android:name=".FiveDaySplit"
+            android:exported="false" />
+        <activity
+            android:name=".SixDaySplit"
+            android:exported="false" />
+        <activity
+            android:name=".FoodCalories"
+            android:exported="false" />
+        <activity
+            android:name=".Recommendation"
+            android:exported="false" />
+        <activity
+            android:name=".UserProfile"
+            android:exported="false" />
+        <activity
+            android:name=".Timer"
+            android:exported="false" />
+        <activity
+            android:name=".HomePage"
+            android:exported="false" />
+        <activity
             android:name=".BruisedHeel"
             android:label="Bruised Heel"
             android:parentActivityName=".injuries18_x"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".CalcaneusStressFracture"
             android:label="Calcaneus Stress Fracture"
@@ -970,9 +1000,9 @@
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".MainActivity"
+            android:exported="true"
             android:label="FITNESS GUIDE"
-            android:theme="@style/SplashTheme"
-            android:exported="true">
+            android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
