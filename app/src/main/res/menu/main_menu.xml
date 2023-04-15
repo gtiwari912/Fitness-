@@ -15,4 +15,7 @@
         <item
             android:id="@+id/nav_splits"
             android:title="@string/training_splits" />
+        <item
+                android:id="@+id/nav_workoutprediction"
+                android:title="Workout Prediction"/>
 </menu>

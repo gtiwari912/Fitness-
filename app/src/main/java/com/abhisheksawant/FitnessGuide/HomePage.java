@@ -74,6 +74,10 @@ public class HomePage extends AppCompatActivity implements NavigationView.OnNavi
             Intent intent5 = new Intent(HomePage.this, Splits.class);
             startActivity(intent5);
         }
+        else if(id==R.id.nav_workoutprediction){
+            Intent intent = new Intent(HomePage.this, WorkoutPredictionQuery.class);
+            startActivity(intent);
+        }
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         drawerLayout.closeDrawer(GravityCompat.START);
         return true;

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WtLoss">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exercise for Weight Loss"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Muscle Loss\n
+
+Monday And Thursday\n
+Cardio:\n
+100Jumping jacks(2sets)\n
+Free squats:- 15( 2sets)\n
+Treadmill speed 6 incline 12 (10mins)\n
+Cross training:-10mins)\n
+Plank:-(3sets 30sec each)\n
+100 stepups:-2sets)\n
+Knee pushups:-(30 in 3sets 10each)\n
+\n\n
+
+Tuesday And Friday\n
+Legs and Shoulder\n
+LEGS:-\n
+Free Squats- 50 (3sets)\n
+weighted squats: 60(2 sets)\n
+Leg Press: 12-15(3sets)\n
+Leg Curl: 12-15(3sets)\n
+SHOULDERS:-\n
+Seated Dumbbell Press:- 15(3sets)\n
+Upright Row:- 10(4sets)\n
+Lateral Raises:- 15(3sets)\n
+\n\n
+Wednesday And Saturday\n
+Cardio:\n
+100Jumping jacks(2sets)\n
+Free squats:- 15( 2sets)\n
+Treadmill speed 6 incline 12 (10mins)\n
+Cross training:-10mins)\n
+Plank:-(3sets 30sec each)\n
+100 stepups:-2sets)\n
+Knee pushups:-(30 in 3sets 10each)\n
+\n\n
+
+Sunday- 10Km walkin"
+        />
+
+    <Button
+        android:id="@+id/wtloss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Watch Weight Loss Tutorial"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"/>
+
+
+</LinearLayout>

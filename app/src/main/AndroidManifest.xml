@@ -9,35 +9,47 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".WtGain"
+            android:exported="false" />
+        <activity
+            android:name=".WtLoss"
+            android:exported="false" />
+        <activity
+            android:name=".WorkoutPredictionQuery"
+            android:exported="false" />
+        <activity
+            android:name=".WorkoutPrediction"
+            android:exported="false" />
+        <activity
             android:name=".Splits"
             android:exported="false" />
         <activity
             android:name=".ThreeDaySplit"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".FourDaySplit"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".FiveDaySplit"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".SixDaySplit"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".FoodCalories"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".Recommendation"
             android:exported="false" />
         <activity
             android:name=".UserProfile"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".Timer"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".HomePage"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".BruisedHeel"
             android:label="Bruised Heel"

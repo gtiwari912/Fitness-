@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".WtGain">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exercise for Weight Gain"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Muscle Gain\n\n
+Monday And Thursday\n
+Back and Biceps: \n
+ BACK:-\n
+Lat pull down:- 10-12(3sets)\n
+One arm row:-10(3sets)\n
+Seated row:-10(3sets)\n
+ BICEPS:-\n
+Dumbbell Biceps normal:- 8-12(3sets)\n
+Incline Dumbbell Biceps Bench:-8-10(3sets)\n
+Rod Curls:-10(3sets)\n
+Cable biceps:- 8-12(2sets)\n
+\n
+Tuesday And Friday\n
+Legs and Shoulder\n
+LEGS:-\n
+Free Squats-100 (3sets)\n
+weighted squats:60(2 sets)\n
+Leg Press: 12-15(3sets)\n
+Leg Curl: 12-15(3sets)\n
+SHOULDERS:-\n
+Seated Dumbbell Press:- 15(3sets)\n
+Upright Row:- 10(4sets)\n
+Lateral Raises:- 15(3sets)\n
+\n\n
+Wednesday And Saturday\n
+CHEST AND TRICEPS\n
+CHEST:-\n
+Pushups 10-12(3sets)\n
+Flat Dumbbell chest press:-15(3sets)\n
+Incline dumbbell chest fly:- 8-10(3sets)\n
+Chest Machine fly:- 10-12(3sets)\n
+TRICEPS:-\n
+Bent-Over Dumbbell Triceps Kickback:- 10-12(2sets)\n
+Dumbbell Overhead Triceps:- 15(3sets)\n
+Triceps Dips:- 15(3sets)\n
+Triceps pushdown Cable:- 15(3sets)\n
+\n\n
+Sunday- Total Rest"
+        />
+
+    <Button
+        android:id="@+id/wtgain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Watch Weight Gain Tutorial"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
